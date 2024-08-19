@@ -80,6 +80,12 @@ python test_LG_SCTrans_PdFa.py
 ## Results and Trained Models
 
 #### Qualitative Results
+![Image text](https://github.com/xdFai/EDGSP/blob/main/Figure/Fig03.png)
+
+
+
+
+#### Quantitative Results on Mixed NUAA-SIRST, NUDT-SIRST, and IRSTD-1K
 
 | Model         | mIoU (x10(-2)) | Pd (x10(-2))| Fat (x10(-2))| Fa (x10(-6))|
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
