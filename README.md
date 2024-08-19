@@ -28,32 +28,6 @@ We present a novel infrared small target label generation (IRSTLG) framework nam
 * **Our project has the following structure:**
   ```
   ├──./datasets/
-  │    ├── IRSTD-1K
-  │    │    ├── images
-  │    │    │    ├── XDU0.png
-  │    │    │    ├── XDU1.png
-  │    │    │    ├── ...
-  │    │    ├── masks
-  │    │    │    ├── XDU0.png
-  │    │    │    ├── XDU1.png
-  │    │    │    ├── ...
-  │    │    ├── img_idx
-  │    │    │    ├── train_IRSTD-1K.txt
-  │    │    │    ├── test_IRSTD-1K.txt
-  │    ├── NUDT-SIRST
-  │    │    ├── images
-  │    │    │    ├── 000001.png
-  │    │    │    ├── 000002.png
-  │    │    │    ├── ...
-  │    │    ├── masks
-  │    │    │    ├── 000001.png
-  │    │    │    ├── 000002.png
-  │    │    │    ├── ...
-  │    │    ├── img_idx
-  │    │    │    ├── train_NUDT-SIRST.txt
-  │    │    │    ├── test_NUDT-SIRST.txt
-  │    ├── ...
-  │    ├── ...
   │    ├── SIRST3
   │    │    ├── images
   │    │    │    ├── XDU0.png
