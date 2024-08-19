@@ -60,7 +60,7 @@ python test_LG_SCTrans_PdFa.py
 
 
 
-#### Quantitative Results on Mixed SIRST, NUDT-SIRST, and IRSTD-1K
+#### Quantitative Results on Mixed Dataset (SIRST3): SIRST, NUDT-SIRST, and IRSTD-1K
 
 | Model         | mIoU (x10(-2)) | Pd (x10(-2))| Fat (x10(-2))| Fa (x10(-6))|
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
