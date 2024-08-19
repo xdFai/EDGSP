@@ -6,6 +6,7 @@ Shuai Yuan, Hanlin Qin, Renke Kou, XiangYan, Zechuan Li, Chenxu Peng, Abd-Krim S
 # Chanlleges and inspiration   
 ![Image text](https://github.com/xdFai/EDGSP/blob/main/Figure/Fig01.png)
 
+
 # Structure
 ![Image text](https://github.com/xdFai/EDGSP/blob/main/Figure/Fig02.png)
 
