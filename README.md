@@ -4,7 +4,7 @@ This is the code of paper 'Beyond Full Label: Single-Point Prompt for Infrared S
 Shuai Yuan, Hanlin Qin, Renke Kou, XiangYan, Zechuan Li, Chenxu Peng, Abd-Krim Seghouane [[Paper]](https://www.arxiv.org/abs/2408.08191) [[Weight]](https://drive.google.com/file/d/1zYgTwFDy-cXIfnaaln8fkeW8Z_7-yf4u/view?usp=sharing)
 
 # Chanlleges and inspiration   
-![Image text](https://github.com/xdFai/EDGSP/blob/main/Figure/Fig05.png)
+![Image text](https://github.com/xdFai/EDGSP/blob/main/Figure/Fig06.png)
 
 
 # Structure
