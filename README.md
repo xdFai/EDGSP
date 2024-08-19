@@ -24,7 +24,7 @@ We present a novel infrared small target label generation (IRSTLG) framework nam
 ## Usage
 
 #### 1. Data
-
+* **Note that using the “fixed” file to correct seven obvious errors in the raw data！！！**
 * **Our project has the following structure:**
   ```
   ├──./datasets/
@@ -50,7 +50,7 @@ We present a novel infrared small target label generation (IRSTLG) framework nam
   │    │    │    ├── test_SIRST3.txt
   
   ```
-  * **Note that using the “fixed” file to correct seven obvious errors in the raw data**
+  
 ##### 2. Train.
 ```bash
 python train_LG_SCTrans.py
