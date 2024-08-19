@@ -13,7 +13,7 @@ Shuai Yuan, Hanlin Qin, Renke Kou, XiangYan, Zechuan Li, Chenxu Peng, Abd-Krim S
 
 # Introduction
 
-We present a novel infrared small target label generation (IRSTLG) framework named energy double guided single-point prompt (EDGSP). Experiments on both public (e.g., NUAA-SIRST, NUDT-SIRST, IRSTD-1K) demonstrate the effectiveness of our method. Our main contributions are as follows:
+We present a novel infrared small target label generation (IRSTLG) framework named energy double guided single-point prompt (EDGSP). Experiments on both public (e.g., SIRST, NUDT-SIRST, IRSTD-1K) demonstrate the effectiveness of our method. Our main contributions are as follows:
 
 1. To the best of our knowledge, we present the first study of the learning-based IRSTLG paradigm and introduce EDGSP creating a crucial link between label generation and target detection task.
 
@@ -86,7 +86,7 @@ python test_LG_SCTrans_PdFa.py
 
 
 
-#### Quantitative Results on Mixed NUAA-SIRST, NUDT-SIRST, and IRSTD-1K
+#### Quantitative Results on Mixed SIRST, NUDT-SIRST, and IRSTD-1K
 
 | Model         | mIoU (x10(-2)) | Pd (x10(-2))| Fat (x10(-2))| Fa (x10(-6))|
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
