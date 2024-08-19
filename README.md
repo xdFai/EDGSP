@@ -37,11 +37,20 @@ We present a novel infrared small target label generation (IRSTLG) framework nam
   │    │    │    ├── XDU0.png
   │    │    │    ├── XDU1.png
   │    │    │    ├── ...
+  │    │    ├── Centroid
+  │    │    │    ├── XDU0.png
+  │    │    │    ├── XDU1.png
+  │    │    │    ├── ...
+  │    │    ├── masks_coarse
+  │    │    │    ├── XDU0.png
+  │    │    │    ├── XDU1.png
+  │    │    │    ├── ...
   │    │    ├── img_idx
   │    │    │    ├── train_SIRST3.txt
   │    │    │    ├── test_SIRST3.txt
   
   ```
+  * **Note that using the “fixed” file to correct seven obvious errors in the raw data**
 ##### 2. Train.
 ```bash
 python train_LG_SCTrans.py
