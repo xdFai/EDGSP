@@ -25,6 +25,7 @@ We present a novel infrared small target label generation (IRSTLG) framework nam
 
 #### 1. Data
 * **Note that using the “fixed” file to correct seven obvious errors in the raw data！！！**
+* **SIRST3: SIRST, NUDT-SIRST, and IRSTD-1K**
 * **Our project has the following structure:**
   ```
   ├──./datasets/
