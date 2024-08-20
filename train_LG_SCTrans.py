@@ -56,9 +56,6 @@ print('batchSize: {0} -- begin_test: {1} -- every_print: {2} -- every_test: {3}'
 
 
 def train():
-    # *******************************************************************************************************
-    #                                             Train
-    # *******************************************************************************************************
     train_set = TrainSetLoader_Gauss(dataset_dir=opt.dataset_dir, dataset_name=opt.dataset_name,
                                      patch_size=opt.patchSize, sigma=opt.sigma, train_mode=opt.train_mode, aug=opt.aug,
                                      img_norm_cfg=opt.img_norm_cfg)
@@ -70,8 +67,8 @@ def train():
                                    img_norm_cfg=opt.img_norm_cfg)
     test_loader = DataLoader(dataset=test_set, num_workers=0, batch_size=1, shuffle=False)
 
-    # net = Net(model_name=opt.model_name, mode='train').cuda()
-    net = Net(model_name=opt.model_name, mode='train')
+    net = Net(model_name=opt.model_name, mode='train').cuda()
+    # net = Net(model_name=opt.model_name, mode='train')
     net.apply(weights_init_kaiming)
     net.train()
 
@@ -100,8 +97,8 @@ def train():
         results1 = [0, 0]
         results2 = [0, 1, 1, 1]
         for idx_iter, (img, gt_mask, point_input) in enumerate(train_loader):
-            # img, gt_mask, point_input = Variable(img).cuda(), Variable(gt_mask).cuda(), Variable(point_input).cuda()
-            img, gt_mask, point_input = Variable(img), Variable(gt_mask), Variable(point_input)
+            img, gt_mask, point_input = Variable(img).cuda(), Variable(gt_mask).cuda(), Variable(point_input).cuda()
+            # img, gt_mask, point_input = Variable(img), Variable(gt_mask), Variable(point_input)
             if img.shape[0] == 1:
                 continue
             imgin = torch.cat([img, point_input], dim=1)
@@ -139,10 +136,10 @@ def train():
                 eval_PD_FA = PD_FA()
                 test_loss = []
                 for idx_iter, (img, gt_mask, point_input, size, _) in enumerate(test_loader):
-                    # img = Variable(img).cuda()
-                    img = Variable(img)
-                    # point_input = Variable(point_input).cuda()
-                    point_input = Variable(point_input)
+                    img = Variable(img).cuda()
+                    # img = Variable(img)
+                    point_input = Variable(point_input).cuda()
+                    # point_input = Variable(point_input)
                     imgin = torch.cat([img, point_input], dim=1)
                     pred = net.forward(imgin)
                     if isinstance(pred, tuple):
