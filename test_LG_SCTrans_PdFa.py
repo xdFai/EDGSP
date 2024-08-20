@@ -21,14 +21,14 @@ parser = argparse.ArgumentParser(description="PyTorch BasicIRSTD test")
 parser.add_argument("--PF_mode", type=str, default='centroid', help=" centroid, coarse ")
 parser.add_argument("--test_mode", type=str, default='centroid', help=" centroid, coarse")
 parser.add_argument("--sigma_input", type=int, default=4, help="If use Gaussian sigma")
-parser.add_argument("--model_names", default=['EDGSP_SCTransNet_PdFa_Silance'], type=list,
+parser.add_argument("--model_names", default=['EDGSP_SCTransNet_PdFa_Saliency'], type=list,
                     help="model_name: 'ACM', 'Ours01', 'DNANet', 'ISNet', 'ACMNet', 'Ours01', 'ISTDU-Net', 'U-Net', 'RISTDnet'")
 parser.add_argument("--pth_dirs", default=['SIRST3/EDGSP_SCTransNet_cen_best.pth.tar'],
                     type=list)
 parser.add_argument("--dataset_dir", default=r'./datasets', type=str, help="train_dataset_dir")
 parser.add_argument("--dataset_names", default=['SIRST3'], type=list,
                     help="dataset_name: 'NUAA-SIRST', 'NUDT-SIRST', 'IRSTD-1K', 'SIRST3', 'NUDT-SIRST-Sea'")
-parser.add_argument("--save_img", default=False, type=bool, help="save image of or not")
+parser.add_argument("--save_img", default=False, type=bool, help="save image of or not, we also choose to save the final result or the saliency map")
 parser.add_argument("--img_norm_cfg", default=None, type=dict,
                     help="specific a img_norm_cfg, default=None (using img_norm_cfg values of each dataset)")
 parser.add_argument("--save_img_dir", type=str, default=r'./Result/',
@@ -232,6 +232,7 @@ def test():
     for k, v in state_dict['state_dict'].items():
         name = k[6:]
         new_state_dict[name] = v
+    #  Here, set the strict as False, because the Sobel operator is written in the deepmodel.
     net.load_state_dict(new_state_dict, strict=False)
     net.eval()
     tbar = tqdm(test_loader)
@@ -260,13 +261,13 @@ def test():
             # IOU.update((pred > 0.5), gt_mask)
             # eval_PD_FA.update((pred[0, 0, :, :] > opt.threshold).cpu(), gt_mask[0, 0, :, :], img=img_dir)
 
-            # save img
+            # Choose A or B: save img or saliency Map !!!
             if opt.save_img == True:
-                # # A:  Save Image
+                # # A:  Save Image !!!
                 predict = (predits[0, 0, :, :] > opt.threshold).float().cpu()
                 img_save = transforms.ToPILImage()(predict)
 
-                # # B:  Save Saliency Map
+                # # B:  Save Saliency Map !!!!
                 # img_save = transforms.ToPILImage()((pred[0, 0, :, :]).cpu())
 
                 if not os.path.exists(opt.save_img_dir + opt.test_dataset_name + '/' + opt.model_name):
