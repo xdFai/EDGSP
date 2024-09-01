@@ -21,6 +21,8 @@ We present a novel infrared small target label generation (IRSTLG) framework nam
 
 3. For the first time, three baselines equipped with EDGSP achieve accurate annotation on three datasets. The downstream detection task illustrates that our pseudo label surpasses the full label. Even with coarse point annotated, EDGSP achieves 99.5% performance of full labeling.
 
+If the implementation of this repo is helpful to you, just star it！⭐⭐⭐
+
 ## Usage
 
 #### 1. Data
