@@ -88,5 +88,5 @@ python test_LG_SCTrans_PdFa.py
 
 
 ## Contact
-**Welcome to raise issues or email to [yuansy@stu.xidian.edu.cn](yuansy@stu.xidian.edu.cn) or [yuansy2@student.unimelb.edu.au](yuansy2@student.unimelb.edu.au) for any question regarding our EDGSP.**
+**Welcome to raise issues or email to [yuansy@stu.xidian.edu.cn](yuansy@stu.xidian.edu.cn) for any question regarding our EDGSP.**
 
