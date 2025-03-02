@@ -85,6 +85,25 @@ python test_LG_SCTrans_PdFa.py
 *The overall repository style is highly borrowed from [DNA-Net](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Thanks to Boyang Li.
 
 
+## Citation
+
+If you find the code useful, please consider citing our paper using the following BibTeX entry.
+
+
+```
+@ARTICLE{10902427,
+  author={Yuan, Shuai and Qin, Hanlin and Kou, Renke and Yan, Xiang and Li, Zechaun and Peng, Chenxu and Wu, Dongliang and Zhou, Huixin},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={Beyond Full Labels: Energy-Double-Guided Single-Point Prompt for Infrared Small Target Label Generation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Annotations;Shape;Object detection;Training;Adhesives;Transformers;Manuals;Labeling;Image segmentation;Feature extraction;Infrared small target label generation;target detection;single-point prompt;interactive segmentation},
+  doi={10.1109/JSTARS.2025.3545014}}
+
+```
+
 ## Contact
 **Welcome to raise issues or email to [yuansy@stu.xidian.edu.cn](yuansy@stu.xidian.edu.cn) for any question regarding our EDGSP.**
 
