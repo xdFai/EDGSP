@@ -92,16 +92,15 @@ If you find the code useful, please consider citing our paper using the followin
 
 ```
 @ARTICLE{10902427,
-  author={Yuan, Shuai and Qin, Hanlin and Kou, Renke and Yan, Xiang and Li, Zechaun and Peng, Chenxu and Wu, Dongliang and Zhou, Huixin},
+  author={Yuan, Shuai and Qin, Hanlin and Kou, Renke and Yan, Xiang and Li, Zechuan and Peng, Chenxu and Wu, Dongliang and Zhou, Huixin},
   journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
   title={Beyond Full Labels: Energy-Double-Guided Single-Point Prompt for Infrared Small Target Label Generation}, 
   year={2025},
-  volume={},
+  volume={18},
   number={},
-  pages={1-14},
-  keywords={Annotations;Shape;Object detection;Training;Adhesives;Transformers;Manuals;Labeling;Image segmentation;Feature extraction;Infrared small target label generation;target detection;single-point prompt;interactive segmentation},
+  pages={8125-8137},
+  keywords={Annotations;Shape;Object detection;Training;Adhesives;Transformers;Manuals;Labeling;Image segmentation;Feature extraction;Infrared small target label generation (IRSTLG);interactive segmentation;single-point prompt;target detection},
   doi={10.1109/JSTARS.2025.3545014}}
-
 ```
 
 ## Contact
