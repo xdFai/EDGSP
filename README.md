@@ -1,7 +1,7 @@
 # Beyond Full Labels: Energy-Double-Guided Single-Point Prompt for Infrared Small Target Label Generation [[Paper]](https://www.arxiv.org/abs/2408.08191) [[Weight]](https://drive.google.com/file/d/1zYgTwFDy-cXIfnaaln8fkeW8Z_7-yf4u/view?usp=sharing)
 
 Shuai Yuan, Hanlin Qin, Renke Kou, XiangYan, Zechuan Li, Chenxu Peng, Dongliang Wu, Huixin Zhou
-# 这是一个专门为红外小目标打标签的深度学些模型~
+# 这是一个专门为红外小目标打标签的深度学习模型~
 # Chanlleges and inspiration   
 ![Image text](https://github.com/xdFai/EDGSP/blob/main/Figure/Fig01.png)
 
