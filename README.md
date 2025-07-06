@@ -1,7 +1,7 @@
 # Beyond Full Labels: Energy-Double-Guided Single-Point Prompt for Infrared Small Target Label Generation [[Paper]](https://www.arxiv.org/abs/2408.08191) [[Weight]](https://drive.google.com/file/d/1zYgTwFDy-cXIfnaaln8fkeW8Z_7-yf4u/view?usp=sharing)
 
 Shuai Yuan, Hanlin Qin, Renke Kou, XiangYan, Zechuan Li, Chenxu Peng, Dongliang Wu, Huixin Zhou
-
+# 这是一个专门为红外小目标打标签的深度学些模型~
 # Chanlleges and inspiration   
 ![Image text](https://github.com/xdFai/EDGSP/blob/main/Figure/Fig01.png)
 
@@ -10,7 +10,7 @@ Shuai Yuan, Hanlin Qin, Renke Kou, XiangYan, Zechuan Li, Chenxu Peng, Dongliang 
 
 
 # Introduction
-这是一个专门为红外小目标打标签的深度学些模型~
+
 We present a novel infrared small target label generation (IRSTLG) framework named energy double guided single-point prompt (EDGSP). Experiments on both public (e.g., SIRST, NUDT-SIRST, IRSTD-1K) demonstrate the effectiveness of our method. Our main contributions are as follows:
 
 1. To the best of our knowledge, we present the first study of the learning-based IRSTLG paradigm and introduce EDGSP creating a crucial link between label generation and target detection task.
